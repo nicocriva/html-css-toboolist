@@ -33,10 +33,10 @@ main{
 .container{
     font-size: 14px;
     width: 60%;
-    height: 560px;
+    height: 580px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 5px;
     background-color: white;
 }
@@ -71,7 +71,7 @@ button{
 ul {
     list-style-type: "\25BC";
     padding: 0px 80px;
-    line-height: 30px;
+    line-height: 32px;
 }
 
 .list-element{
@@ -83,6 +83,7 @@ ul {
     font-size: 12px;
     padding: 6px;
     border-radius: 10px;
+    margin-left: 5px;
 }
 
 .blue{
@@ -101,22 +102,32 @@ ul {
     background-color: #f29e33;
 }
 
+.pink{
+    background-color: #d863a1;
+}
+
+.acid-green{
+    background-color: #b0c926;
+}
+
 .check::before{
     color: green;
     content: ' \2713';
-    padding: 1px 5px;
+    padding: 1px 4px;
     border: 2px solid green;
     border-radius: 25px;
-    margin-left: -20px;
+    margin-left: -12px;
+    margin-right: 10px;
 }
 
 .wrong::before{
     color: red;
     content: ' \2715';
-    padding: 1px 5px;
+    padding: 1px 4px;
     border: 2px solid red;
     border-radius: 25px;
-    margin-left: -20px;
+    margin-left: -12px;
+    margin-right: 10px;
 }
 
 h2{
