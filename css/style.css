@@ -31,6 +31,7 @@ main{
 }
 
 .container{
+    font-size: 14px;
     width: 60%;
     height: 560px;
     margin-left: auto;
@@ -45,6 +46,7 @@ main{
 }
 
 button{
+    font-size: 14px;
     padding: 8px;
     margin-top: 20px;
     border-radius: 10px;
@@ -64,4 +66,59 @@ button{
 #header-container{
     padding-bottom: 10px;
     border-bottom: 3px solid #f6f8f9;
+}
+
+ul {
+    list-style-type: "\25BC";
+    padding: 0px 80px;
+    line-height: 30px;
+}
+
+.list-element{
+    margin-top: 30px;
+}
+
+.background{
+    color: white;
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.blue{
+    background-color: #45abea;
+}
+
+.purple{
+    background-color: #9c72e4;
+}
+
+.green{
+    background-color: #64c0a9;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.check::before{
+    color: green;
+    content: ' \2713';
+    padding: 1px 5px;
+    border: 2px solid green;
+    border-radius: 25px;
+    margin-left: -20px;
+}
+
+.wrong::before{
+    color: red;
+    content: ' \2715';
+    padding: 1px 5px;
+    border: 2px solid red;
+    border-radius: 25px;
+    margin-left: -20px;
+}
+
+h2{
+    margin-bottom: 10px;
 }
