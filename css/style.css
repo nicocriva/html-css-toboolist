@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#intestazione{
+    padding: 15px;
+}
+
+#logo-img{
+    width: 70px;
+}
+
+#title{
+    font-size: 35px;
+    vertical-align: 25px;
+}
