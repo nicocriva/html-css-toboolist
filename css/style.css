@@ -16,3 +16,52 @@
     font-size: 35px;
     vertical-align: 25px;
 }
+
+header{
+    background-color: white;
+}
+
+body{
+    background-color: #f6f8f9;
+    height: 100vh;
+}
+
+main{
+    height: 450px;
+}
+
+.container{
+    width: 60%;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#buttons{
+    margin-left: 60px;
+}
+
+button{
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: lightgray;
+    border: none;
+}
+
+#blue-button{
+    background-color: #45abea;
+}
+
+#white-button{
+    border: 2px solid lightgray;
+    background-color: white;
+}
+
+#header-container{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f6f8f9;
+}
